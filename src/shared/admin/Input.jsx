@@ -6,6 +6,7 @@ function Input({ label, error, hint, ...rest }) {
         borderRadius: "10px",
         padding: "10px",
       }}
+      className="blur"
     >
       <label>
         {label && <p> {label}</p>}

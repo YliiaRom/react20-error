@@ -8,6 +8,7 @@ import User from "@/components/User/User";
 import ErrorUserWrapper from "@/components/ErrorUser/ErrorUserWrapper";
 import WrapMathRandomComponents from "@/components/MathRundomComponents/WrapMathRandomComponents";
 import WrapErrorFormAdmin from "@/components/ErrorFormAdmin/WrapErrorFormAdmin";
+import OnErrorComponent from "@/components/OnError/OnErrorComponent";
 
 function ReactErrorBoundaryPage() {
   return (
@@ -20,6 +21,7 @@ function ReactErrorBoundaryPage() {
         використання: <br />• компонент ErrorBoundary <br />• хук
         useErrorBoundary <br />• HOC
       </p>
+      {/* =========btn */}
       <div>
         <a
           href="https://www.npmjs.com/package/react-error-boundary"
@@ -43,6 +45,7 @@ function ReactErrorBoundaryPage() {
           11.00 / 21.00/
         </a>
       </div>
+
       {/* ============test  fallback*/}
       <div className="practiceWrap">
         <p className="title">
@@ -158,6 +161,7 @@ function ReactErrorBoundaryPage() {
           </details>
         </div>
       </div>
+
       {/*  ==============приклад робити запит за ID */}
       <h2>Робити запит за ID, якщо не вийшло =&gt; змінити ID</h2>
       <p>
@@ -215,6 +219,10 @@ function ReactErrorBoundaryPage() {
       </p>
       <div className="practiceWrap">
         <WrapErrorFormAdmin />
+      </div>
+      {/* =============log */}
+      <div>
+        <OnErrorComponent />
       </div>
     </div>
   );
