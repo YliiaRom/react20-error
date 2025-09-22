@@ -1,8 +1,9 @@
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./ErrorFallback";
-import UseErrorBoundaryComponent from "./useErrorBoundaryComponent";
+
 import ErrorUseErrorBoundaryComponent from "./ErrorUseErrorBoundaryComponent";
 import { useState } from "react";
+import UseErrorBoundaryComponent from "./useErrorBoundaryComponent";
 
 function WrapUseErrorBoundary() {
   const [idData, setIdData] = useState(0);

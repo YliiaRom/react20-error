@@ -1,5 +1,5 @@
 import AboutComponents from "@/components/useErrorBoudaryConponents/AboutComponents";
-import UseErrorBoundaryComponent from "@/components/useErrorBoudaryConponents/useErrorBoundaryComponent";
+
 import WrapUseErrorBoundary from "@/components/useErrorBoudaryConponents/WrapUseErrorBoundary";
 
 function UseErrorBoundary() {
