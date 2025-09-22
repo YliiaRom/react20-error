@@ -1,6 +1,6 @@
-import AboutComponents from "@/components/useErrorBoudaryConponents/AboutComponents";
+import AboutComponents from "@/components/useErrorBoundaryComponents/AboutComponents";
 
-import WrapUseErrorBoundary from "@/components/useErrorBoudaryConponents/WrapUseErrorBoundary";
+import WrapUseErrorBoundary from "@/components/useErrorBoundaryComponents/WrapUseErrorBoundary";
 
 function UseErrorBoundary() {
   return (

@@ -3,7 +3,7 @@ import ErrorFallback from "./ErrorFallback";
 
 import ErrorUseErrorBoundaryComponent from "./ErrorUseErrorBoundaryComponent";
 import { useState } from "react";
-import UseErrorBoundaryComponent from "./useErrorBoundaryComponent";
+import UseErrorBoundaryComponent from "./UseErrorBoundaryComponent";
 
 function WrapUseErrorBoundary() {
   const [idData, setIdData] = useState(0);
