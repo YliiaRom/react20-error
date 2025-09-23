@@ -5,11 +5,22 @@ import WrapUseErrorBoundary from "@/components/useErrorBoundaryComponents/WrapUs
 function UseErrorBoundary() {
   return (
     <div className="useErrorBoundaryWrapper">
-      <h1>Хук useErrorBoundary - для ловлі помилок від бекенду</h1>
+      <h1>
+        Хук useErrorBoundary <br /> для ловлі помилок від бекенду( в
+        useEffect()) <br />
+      </h1>
+      <p className="accent">
+        {" "}
+        useErrorBoundary() <br />
+        showBoundary(error) <br />
+        &#123;resetBoundary&#125;
+      </p>
+
       <p>
         Обробка помилок поза фазою рендерингу (наприклад, в асинхронних
         операціях або обробниках подій)
       </p>
+      <p>npm install react-error-boundary</p>
       <div>
         <a
           href="https://www.npmjs.com/package/react-error-boundary"

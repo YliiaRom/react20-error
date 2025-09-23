@@ -32,6 +32,7 @@ function AboutComponents() {
               if (!data.name) &#123; <mark>throw new Error</mark>('опис
               помилки')
               <br />
+              <br />
               catch(<mark>error</mark>) &#123; <br />
               <mark> showBoundary(error)</mark>;
               <br />

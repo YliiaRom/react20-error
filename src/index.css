@@ -73,14 +73,16 @@ p {
   text-align: right;
   margin: 0;
 
-  /* background: linear-gradient(90deg, #a4a053, #ffffff, #8f8c76, #deddddc7);
-  color: transparent;
-
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  margin-bottom: 30px; */
   color: #bbb4b4;
+}
+.accent {
+  line-height: 1.2;
+  letter-spacing: 0.3px;
+  color: #eff6da;
+  color: #effacf;
+  font-weight: 800;
+  text-shadow: 0px 1px 0.1px #3837375d;
+  font-size: 1.5em;
 }
 header {
   margin-bottom: 30px;
@@ -241,6 +243,7 @@ label.form > input {
   backdrop-filter: blur(10px);
 }
 .aboutCode {
+  margin-top: 15px;
   max-width: 700px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -257,6 +260,11 @@ label.form > input {
   box-shadow: 0px 0px 2px #999, -2px -2px 3px #fff, 2px 2px 3px #999;
 }
 /* =================useErrorBoundaryWrapper */
+.sentrySDKWrapper,
+.homePageWrapper,
+.interceptorsPageWrapper,
+.wrapperFsdPage,
+.withErrorBoundaryHOCPageWrapper,
 .useErrorBoundaryWrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -282,8 +290,28 @@ label.form > input {
 }
 .practiceWrap {
   max-width: 600px;
+  margin: 0 auto;
+}
+.practiceWrap button {
+  transition: 0.3s;
+}
+.practiceWrap button:hover {
+  background-color: #fff;
+  color: #000;
 }
 @media (max-width: 375px) {
+  h1 {
+    font-size: 1em;
+    text-shadow: none;
+    font-weight: 900;
+    color: #000000ba;
+    word-wrap: break-word;
+  }
+  .accent {
+    color: #8d8d4b;
+    font-size: 1em;
+    text-shadow: none;
+  }
   .aboutCode {
     display: flex;
     flex-wrap: wrap;
